@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Captain Mhmad Mostafa Mansour – Syrian Seafarers' Voice</title>
+  <style>
+    body {
+      font-family: 'Georgia', serif;
+      background-color: #0a0a0a;
+      color: #ffffff;
+      margin: 0;
+      padding: 0;
+      line-height: 1.7;
+    }
+    header {
+      background: linear-gradient(#111, #000), url('assets/profile.jpg.jpg') center/cover no-repeat;
+      padding: 3rem 2rem;
+      text-align: center;
+      border-bottom: 4px solid #d4af37;
+    }
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 0.5rem;
+      color: #d4af37;
+      text-shadow: 1px 1px 4px #000;
+    }
+    .subtitle {
+      font-size: 1.2rem;
+      color: #cccccc;
+    }
+    .section-title {
+      font-size: 1.8rem;
+      border-left: 4px solid #d4af37;
+      padding-left: 1rem;
+      margin-top: 3rem;
+      color: #d4af37;
+    }
+    section {
+      padding: 1.5rem 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    p {
+      font-size: 1.1rem;
+      margin-bottom: 1rem;
+    }
+    .arabic {
+      direction: rtl;
+      text-align: right;
+      font-family: 'Arial', sans-serif;
+    }
+    a {
+      color: #d4af37;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    footer {
+      background-color: #111;
+      text-align: center;
+      padding: 2rem 1rem;
+      color: #aaa;
+      font-size: 0.9rem;
+      border-top: 2px solid #333;
+    }
+    .logo {
+      width: 80px;
+      margin: 1rem auto;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="assets/syrian-logo.png" alt="New Syrian Identity Logo" class="logo">
+    <h1>Captain Mhmad Mostafa Mansour</h1>
+    <p class="subtitle">Second Officer | Member of The Nautical Institute (MNI) | 46 Months of Sea Experience</p>
+  </header>
+
+  <section>
+    <h2 class="section-title">About Me</h2>
+    <p>I am a certified Syrian Second Officer with over 46 months of professional sea service aboard general cargo and bulk carriers, currently serving on MV DENIZ ID. I proudly represent Syrian seafarers on international platforms and aim to voice their challenges and aspirations globally.</p>
+
+    <h2 class="section-title">Membership</h2>
+    <p>Member of The Nautical Institute (MNI), working toward promoting ethical and legal representation for Syrian maritime professionals.</p>
+
+    <h2 class="section-title">Initiatives & Campaigns</h2>
+    <p>We are currently preparing volunteer campaigns to support Syrian seafarers' rights and to promote ethical maritime practices. If you're an organization, NGO, or journalist, please <a href="#contact">contact me</a> to collaborate.</p>
+
+    <h2 class="section-title">Contact</h2>
+    <p>Email: <a href="mailto:Mhmadmansour72@gmail.com">Mhmadmansour72@gmail.com</a></p>
+    <p>Phone: <a href="tel:+380633163884">+380633163884</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/moe69mansour" target="_blank">moe69mansour</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Captain Mhmad Mostafa Mansour. All rights reserved.</p>
+    <p>Designed with dignity and pride – for a new, ethical Syrian maritime future.</p>
+  </footer>
+
+</body>
+</html>
