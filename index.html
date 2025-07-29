@@ -1,116 +1,208 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Official Representation – Syrian Seafarers</title>
   <style>
     body {
-      font-family: 'Segoe UI', sans-serif;
-      background: #0b0c10;
-      color: #ffffff;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #05060A;
+      color: #f2f2f2;
       margin: 0;
       padding: 0;
     }
-
     header {
-      background: #1f1f1f;
-      text-align: center;
-      padding: 2rem;
-      border-bottom: 3px solid #d4af37;
-    }
-
-    header img {
-      width: 160px;
-      border-radius: 10px;
-      border: 3px solid #d4af37;
-    }
-
-    h1 {
-      font-size: 2rem;
-      margin-top: 1rem;
+      position: relative;
+      background: linear-gradient(180deg, #1e2130cc, #05060a), url('assets/profile.jpg.jpg') center/cover no-repeat;
+      height: 380px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
       color: #d4af37;
+      text-align: center;
     }
-
-    .content {
-      padding: 2rem;
-      max-width: 900px;
+    header::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 80px;
+      background: linear-gradient(to bottom, transparent, #05060A);
+    }
+    header h1 {
+      position: relative;
+      font-size: 2.8rem;
+      margin: 0;
+      z-index: 1;
+    }
+    header p.subtitle {
+      position: relative;
+      font-size: 1.2rem;
+      margin: 0.5rem 0 0;
+      z-index: 1;
+      color: #e0ca8f;
+    }
+    main {
+      max-width: 880px;
       margin: auto;
-      line-height: 1.8;
+      padding: 2rem 1rem;
+      line-height: 1.75;
+      color: #ccc;
     }
-
-    .section-title {
-      color: #f0f0f0;
-      font-size: 1.5rem;
-      margin-top: 2rem;
-      border-bottom: 1px solid #d4af37;
-      padding-bottom: 0.3rem;
+    section {
+      margin-bottom: 2.5rem;
+      transition: all 0.3s;
     }
-
-    .links a {
+    h2.section-title {
+      border-left: 4px solid #d4af37;
+      padding-left: 0.75rem;
+      font-size: 1.6rem;
+      margin-bottom: 1rem;
+      color: #e0ca8f;
+    }
+    ul.memberships {
+      list-style: disc;
+      margin-left: 1.5rem;
+      color: #e0ca8f;
+    }
+    ul.memberships li {
+      margin-bottom: 0.5rem;
+    }
+    a {
       color: #d4af37;
-      margin-right: 1rem;
       text-decoration: none;
+      font-weight: 500;
     }
-
-    footer {
-      text-align: center;
+    a:hover {
+      text-decoration: underline;
+    }
+    form {
+      background: #1c1e2b;
       padding: 1.5rem;
-      background: #1f1f1f;
-      color: #aaa;
-      font-size: 0.9rem;
+      border-radius: 8px;
+      box-shadow: 0 0 20px rgba(212, 175, 55, 0.4);
     }
-
-    .arabic {
-      direction: rtl;
-      font-family: 'Amiri', serif;
+    form label {
+      display: block;
+      margin-bottom: 0.3rem;
+      color: #d4af37;
+      font-weight: 600;
+    }
+    form input, form textarea {
+      width: 100%;
+      padding: 0.55rem;
+      margin-bottom: 1rem;
+      border: none;
+      border-radius: 5px;
+      background: #2a2d3c;
+      color: #eee;
+      font-size: 1rem;
+    }
+    form textarea {
+      resize: vertical;
+      min-height: 80px;
+    }
+    form button {
+      background: #d4af37;
+      color: #05060A;
+      font-weight: 700;
+      border: none;
+      padding: 0.8rem 1.4rem;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 1.05rem;
+      transition: background 0.3s ease;
+    }
+    form button:hover {
+      background: #bfa650;
+    }
+    footer {
+      background: #1e2130;
+      color: #999;
+      text-align: center;
+      padding: 1.5rem 0;
+      font-size: 0.9rem;
+      margin-top: 2rem;
     }
   </style>
 </head>
 <body>
   <header>
-    <img src="assets/profile.jpg.jpg" alt="Mohamad Mansour" />
     <h1>Mhmad Mostafa Mansour</h1>
-    <p>Official Representative – Syrian Seafarers</p>
+    <p class="subtitle">Official Representative – Syrian Seafarers</p>
   </header>
 
-  <div class="content">
-    <div class="section-title">About Me | من أنا</div>
-    <p>
-      I am a certified Syrian Deck Officer with over 46 months of international sea experience, member of The Nautical Institute (MNI), and a passionate advocate for the rights and representation of Syrian seafarers globally.
-    </p>
-    <p class="arabic">
-      أنا الضابط البحري محمد مصطفى منصور، أمثل البحارة السوريين حول العالم، وأسعى لتقديم صوتهم للمنظمات الدولية، والعمل من أجل مستقبل بحري سوري أكثر كفاءة وكرامة.
-    </p>
+  <main>
+    <section id="about-me">
+      <h2 class="section-title">About Me | من أنا</h2>
+      <p>
+        Certified Deck Officer with 46+ months of international experience, proudly a member of <strong>The Nautical Institute (MNI)</strong>.
+        I represent Syrian seafarers internationally, championing their rights, dignity, and safety.
+      </p>
+      <p class="arabic">
+        ضابط بحري معتمد بخبرة تفوق 46 شهرًا في البحار الدولية، وعضو مشتغل في <strong>المعهد البحري العالمي (MNI)</strong>. أمثل البحّارة السوريين على مستوى العالم، مدافعًا عن حقوقهم وكرامتهم وسلامتهم.
+      </p>
+    </section>
 
-    <div class="section-title">Mission & Vision | الرؤية والرسالة</div>
-    <p>
-      Establishing an official coordination point for Syrian seafarers in Tartous, supporting legal aid, international representation, and cooperation with leading maritime organizations.
-    </p>
-    <p class="arabic">
-      فتح نقطة تنسيق رسمية للبحارة السوريين في طرطوس، لتقديم الدعم القانوني، وتمثيلهم دولياً، والتعاون مع أهم الهيئات والمنظمات البحرية العالمية.
-    </p>
+    <section id="mission">
+      <h2 class="section-title">Mission & Vision | الرؤية والرسالة</h2>
+      <p>
+        Establishing an official coordination hub for Syrian seafarers in Tartous, delivering legal and professional support,
+        while bridging to international maritime organizations to elevate Syrian maritime voices globally.
+      </p>
+      <p class="arabic">
+        إقامة مركز تنسيق رسمي للبحارة السوريين في طرطوس، يقدم الدعم القانوني والمهني، ويربطهم بالمنظمات البحرية الدولية لرفع صوتهم عالميًا.
+      </p>
+    </section>
 
-    <div class="section-title">Memberships | العضويات</div>
-    <ul>
-      <li>Member – The Nautical Institute (UK)</li>
-      <li>Member – Seafarers’ Rights International (SRI)</li>
-      <li>Candidate – Canadian Marine Industry Associations</li>
-    </ul>
+    <section id="memberships">
+      <h2 class="section-title">Memberships | العضويات</h2>
+      <ul class="memberships">
+        <li>Member – The Nautical Institute (MNI), UK</li>
+        <li>Member – Seafarers’ Rights International (SRI)</li>
+        <li>Candidate – Canadian Marine Industry Associations</li>
+      </ul>
+    </section>
 
-    <div class="section-title">Contact & Social Links</div>
-    <p>Email: Mhmadmansour72@gmail.com</p>
-    <p>Phone: +380633163884</p>
-    <div class="links">
-      <a href="https://x.com/1moemansour" target="_blank">Twitter/X</a>
-      <a href="https://www.facebook.com/share/1CMyrg2nki/?mibextid=wwXIfr" target="_blank">Facebook</a>
-      <a href="https://www.instagram.com/_moe_mansour_" target="_blank">Instagram</a>
-      <a href="https://www.linkedin.com/in/moe69mansour" target="_blank">LinkedIn</a>
-    </div>
-  </div>
+    <section id="initiatives">
+      <h2 class="section-title">Initiatives & Volunteering | مبادرات حملات تطوعية</h2>
+      <p>
+        Committed to campaigns promoting maritime rights, awareness, and humanitarian support for Syrian seafarers.
+        These initiatives include legal advocacy, sea safety education, and mental health support outreach.
+      </p>
+      <p class="arabic">
+        أشارك في مبادرات تهدف لحماية حقوق البحّارة السوريين، منها التوعية البحرية، الدعم القانوني، وحملات الصحة النفسية. نسعى لضمان السلامة والكرامة لكل بحّار سوري.
+      </p>
+    </section>
 
-  <footer>
-    © 2025 – Syrian Seafarers Initiative | Designed with dignity and purpose
-  </footer>
+    <section id="contact">
+      <h2 class="section-title">Contact & Inquiry | اتصل للاستعلام</h2>
+      <form action="mailto:Mhmadmansour72@gmail.com" method="POST" enctype="text/plain">
+        <label for="name">Name | الاسم:</label>
+        <input type="text" id="name" name="name" required placeholder="Your full name">
+        <label for="email">Email | البريد الإلكتروني:</label>
+        <input type="email" id="email" name="email" required placeholder="your.email@example.com">
+        <label for="message">Message | الرسالة:</label>
+        <textarea id="message" name="message" required placeholder="Write your inquiry..."></textarea>
+        <button type="submit">Send | أرسل</button>
+      </form>
+    </section>
+
+    <section id="contact-info">
+      <h2 class="section-title">Social Media & Contact | التواصل</h2>
+      <p>Email: <a href="mailto:Mhmadmansour72@gmail.com">Mhmadmansour72@gmail.com</a><br>
+         Phone: +380633163884</p>
+      <p>
+        <a href="https://x.com/1moemansour" target="_blank">Twitter/X</a> |
+        <a href="https://www.facebook.com/share/1CMyrg2nki/?mibextid=wwXIfr" target="_blank">Facebook</a> |
+        <a href="https://www.instagram.com/_moe_mansour_" target="_blank">Instagram</a> |
+        <a href="https://www.linkedin.com/in/moe69mansour" target="_blank">LinkedIn</a>
+      </p>
+    </section>
+  </main>
+
+  <footer>&copy; 2025 Mhmad Mostafa Mansour – Syrian Seafarers Representation</footer>
 </body>
 </html>
