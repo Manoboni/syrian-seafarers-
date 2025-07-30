@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Syrian Mariners Representation</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f4f4f8;
+      color: #222;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #003f5c;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.2em;
+    }
+    nav {
+      background-color: #2f4b7c;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 30px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .logos img {
+      max-height: 60px;
+      margin: 10px;
+    }
+    footer {
+      background-color: #003f5c;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+    }
+    .highlight {
+      background-color: #e0e0f0;
+      padding: 15px;
+      border-left: 5px solid #7a5195;
+      margin: 20px 0;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Syrian Mariners Representation<br/>تمثيل البحارة السوريين</h1>
+  <p>Professional Maritime Advocacy and International Collaboration</p>
+</header>
+
+<nav>
+  <a href="#about">About / من نحن</a>
+  <a href="#goals">Objectives / الأهداف</a>
+  <a href="#contact">Contact / تواصل</a>
+</nav>
+
+<section id="about">
+  <h2>About Me / من أنا</h2>
+  <p>
+    I am <strong>Mhmad Mostafa Mansour</strong>, a Syrian Second Officer with 46 months of sea experience across Bulk Carriers and General Cargo vessels. 
+    I am a certified member of <strong>The Nautical Institute (UK)</strong> and currently based aboard MV DENIZ ID.
+  </p>
+  <p>
+    أسعى لتمثيل البحارة السوريين والدفاع عن حقوقهم، من خلال التواصل مع المنظمات البحرية الدولية وتأسيس نقاط تمثيل ميدانية، وإيصال صوت البحارة إلى الجهات الفاعلة في القطاع البحري العالمي.
+  </p>
+</section>
+
+<section id="goals">
+  <h2>Objectives / الأهداف</h2>
+  <ul>
+    <li>Establish official representation points for Syrian seafarers.</li>
+    <li>Support seafarers morally, psychologically, and professionally.</li>
+    <li>Demand official employment contracts in line with international conventions (MLC 2006).</li>
+    <li>Open Officers' Clubs for knowledge sharing and community building.</li>
+    <li>Collaborate with responsible maritime companies that protect seafarers’ rights.</li>
+    <li>Guide Syrian seafarers to valuable courses and certifications to enhance their careers.</li>
+  </ul>
+  <div class="highlight">
+    الجهات التي تم التواصل معها تشمل:  
+    IMO, ILO, ITF, SRI, HRAS, Nautilus International, Global Maritime Forum, Fair Work International, Amnesty International – Maritime Rights, 
+    وغيرها.
+    <br/>
+    تمت المتابعة مع بعض هذه الجهات لفترة تتجاوز 6 أسابيع، وتم فتح تذكرة رسمية لدى ITF برقم 22393.
+  </div>
+</section>
+
+<section>
+  <h2>Logos / الشعارات</h2>
+  <div class="logos">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Nautical_Institute_logo.png/600px-Nautical_Institute_logo.png" alt="Nautical Institute Logo" />
+    <img src="https://i.imgur.com/XNw1VRq.png" alt="Syrian Ports Authority Logo" />
+    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA..." alt="Syrian Mariners Logo" /> <!-- شعار الموقع الذي صممناه -->
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact & Social Media / وسائل التواصل</h2>
+  <ul>
+    <li>📧 Email 1: mhmadmansour72@gmail.com</li>
+    <li>📧 Email 2: mohammedmansour860@gmail.com</li>
+    <li>📱 WhatsApp: <a href="https://wa.me/qr/WGW7KBLQXQRJD1" target="_blank">Click here</a></li>
+    <li>📞 Phone: +380633163884</li>
+    <li>🔗 LinkedIn: <a href="https://www.linkedin.com/in/moe69mansour" target="_blank">moe69mansour</a></li>
+    <li>🐦 Twitter (X): <a href="https://x.com/1moemansour" target="_blank">@1moemansour</a></li>
+    <li>📸 Instagram: <a href="https://www.instagram.com/_moe_mansour_" target="_blank">_moe_mansour_</a></li>
+    <li>📘 Facebook: <a href="https://www.facebook.com/share/15jpdwkL75/" target="_blank">My Facebook</a></li>
+  </ul>
+</section>
+
+<footer>
+  &copy; 2025 Syrian Mariners Representation | Designed by Mhmad Mostafa Mansour
+</footer>
+
+</body>
+</html>
